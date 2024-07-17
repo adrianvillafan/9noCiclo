@@ -1,0 +1,30 @@
+This directory contains the codes corresponding to the numerical experiments of the paper:
+
+O. P. Ferreira, M. S. Louzeiro, and L. F. Prudente, "Gradient Method for Optimization 
+on Riemannian Manifolds with Lower Bounded Curvature", technical report, 2018.
+
+The following files are contained in this directory:
+  
+  Readme	   - User guide.
+  main.m	   - Driver for the optimization code. Define in main.m file the 
+		     strategy used by the Riemannian gradient method, and the problem
+	             to be solved.
+  evalf.m	   - Subroutine which implements the objective functions of the problems.
+  evalg.m          - Subroutine which implements the Euclidian gradient of the objective 
+                     functions.
+  GradRiemannian.m - Subroutine which contains the Riemannian gradient method.
+  Gradient.m	   - Subroutine which contains the Euclidian gradient method.
+
+
+Instructions:
+—————————————
+
+1) Edit the main.m file to choose the strategy used by the 
+   Riemannian gradient method, and the problem to be solved.
+
+2) Run typing
+
+main
+
+at the Command Window, and see the output in the screen.
+
